@@ -307,16 +307,26 @@
       "text": "Ikaw ay isang bukal sa hardin, isang balon ng sariwang tubig,\nAt isang batis na umaagos mula sa Lebanon."
     },
     {
-      "verseNum": "16",
-      "speaker": "Pastol / Dalaga",
-      "text": "Gumising ka, O hanging hilaga;\nPumasok ka, O hanging timog.\nHumihip kayo sa aking hardin.\nIkalat ninyo ang halimuyak nito.”\nPumasok sana ang sinta ko sa kaniyang hardin\nAt kumain ng pinakapiling mga bunga nito.”"
+      "verseNum": "16a",
+      "speaker": "Pastol",
+      "text": "Gumising ka, O hanging hilaga;\nPumasok ka, O hanging timog.\nHumihip kayo sa aking hardin.\nIkalat ninyo ang halimuyak nito."
+    },
+    {
+      "verseNum": "16b",
+      "speaker": "Dalaga",
+      "text": "Pumasok sana ang sinta ko sa kaniyang hardin\nAt kumain ng pinakapiling mga bunga nito.”"
     }
   ],
   "Chapter5": [
     {
-      "verseNum": "1",
-      "speaker": "Pastol / Mga anak na babae ng Jerusalem",
-      "text": "Pumasok na ako sa hardin ko,\nO kapatid ko, kasintahan ko.\nNanguha na ako ng mira at mabangong halaman.\nKumain na ako ng bahay-pukyutan at pulot-pukyutan;\nIninom ko na ang aking alak at gatas.”\nKumain kayo, mahal naming mga kaibigan!\nUminom kayo at malasing sa mga kapahayagan ng pagmamahal!”"
+      "verseNum": "1a",
+      "speaker": "Pastol",
+      "text": "Pumasok na ako sa hardin ko,\nO kapatid ko, kasintahan ko.\nNanguha na ako ng mira at mabangong halaman.\nKumain na ako ng bahay-pukyutan at pulot-pukyutan;\nIninom ko na ang aking alak at gatas.”"
+    },
+    {
+      "verseNum": "1b",
+      "speaker": "Mga anak na babae ng Jerusalem",
+      "text": "Kumain kayo, mahal naming mga kaibigan!\nUminom kayo at malasing sa mga kapahayagan ng pagmamahal!”"
     },
     {
       "verseNum": "2",
@@ -456,9 +466,29 @@
       "text": "Dahil sa kagustuhan kong iyon,\nHindi ko namalayang napunta na ako\nSa mga karwahe ng aking mabubuting kababayan.”"
     },
     {
-      "verseNum": "13",
-      "speaker": "Hari / Dalaga / Hari",
-      "text": "Bumalik ka, bumalik ka, O Shulamita!\nBumalik ka, bumalik ka,\nPara matingnan ka namin!”\nAno ba ang nakikita ninyo sa Shulamita?”\nGaya siya ng sayaw ng Mahanaim!”"
+      "verseNum": "13a",
+      "speaker": "Hari",
+      "text": "Bumalik ka, bumalik ka, O Shulamita!\nBumalik ka, bumalik ka,\nPara matingnan ka namin!"
+    },
+    {
+      "verseNum": "13a",
+      "speaker": "Mga anak na babae ng Jerusalem",
+      "text": "Bumalik ka, bumalik ka, O Shulamita!\nBumalik ka, bumalik ka,\nPara matingnan ka namin!"
+    },
+    {
+      "verseNum": "13b",
+      "speaker": "Dalaga",
+      "text": "Ano ba ang nakikita ninyo sa Shulamita?"
+    },
+    {
+      "verseNum": "13c",
+      "speaker": "Hari",
+      "text": "Gaya siya ng sayaw ng Mahanaim!"
+    },
+    {
+      "verseNum": "13c",
+      "speaker": "Mga anak na babae ng Jerusalem",
+      "text": "Gaya siya ng sayaw ng Mahanaim!"
     }
   ],
   "Chapter7": [
@@ -503,9 +533,14 @@
       "text": "Sinabi ko, ‘Aakyat ako sa puno ng palma\nPara mahawakan ang mga kumpol ng bunga nito.’\nAng dibdib mo ay maging gaya nawa ng mga kumpol ng ubas,\nAt ang hininga mo ay maging kasimbango ng mansanas,"
     },
     {
-      "verseNum": "9",
-      "speaker": "Hari / Dalaga",
-      "text": "At ang bibig mo ay maging gaya ng pinakamagandang klase ng alak.”\nHumagod nawa ito nang suwabe para sa sinta ko\nAt unti-unting dumampi sa mga labi ng natutulog."
+      "verseNum": "9a",
+      "speaker": "Hari",
+      "text": "At ang bibig mo ay maging gaya ng pinakamagandang klase ng alak."
+    },
+    {
+      "verseNum": "9b",
+      "speaker": "Dalaga",
+      "text": "Humagod nawa ito nang suwabe para sa sinta ko\nAt unti-unting dumampi sa mga labi ng natutulog."
     },
     {
       "verseNum": "10",
@@ -550,9 +585,14 @@
       "text": "Sumumpa kayo, O mga anak na babae ng Jerusalem:\nHuwag ninyong gisingin sa akin ang pag-ibig na hindi ko nararamdaman.”"
     },
     {
-      "verseNum": "5",
-      "speaker": "Mga kapatid na lalaki ng dalaga / Dalaga",
-      "text": "Sino ang babaeng ito na paparating mula sa ilang,\nNa nakahilig sa kaniyang sinta?”\nGinising kita sa ilalim ng puno ng mansanas.\nDoon humilab ang tiyan ng iyong ina;\nDoon nahirapan sa panganganak ang nagsilang sa iyo."
+      "verseNum": "5a",
+      "speaker": "Mga kapatid na lalaki ng dalaga",
+      "text": "Sino ang babaeng ito na paparating mula sa ilang,\nNa nakahilig sa kaniyang sinta?"
+    },
+    {
+      "verseNum": "5b",
+      "speaker": "Dalaga",
+      "text": "Ginising kita sa ilalim ng puno ng mansanas. Doon humilab ang tiyan ng iyong ina;\nDoon nahirapan sa panganganak ang nagsilang sa iyo."
     },
     {
       "verseNum": "6",
@@ -585,7 +625,7 @@
       "text": "May ubasan si Solomon sa Baal-hamon.\nIpinagkatiwala niya ang ubasan sa mga tagapag-alaga.\nBawat isa ay nagbibigay ng isang libong pirasong pilak para sa mga bunga nito."
     },
     {
-      "verseNum": "1LA",
+      "verseNum": "12",
       "speaker": "Dalaga",
       "text": "May sarili akong ubasan, at akin lang iyon.\nKaya sa iyo na ang sanlibong pirasong pilak, O Solomon,\nAt ang dalawang daan ay sa mga nag-aalaga sa mga bunga nito.”"
     },
