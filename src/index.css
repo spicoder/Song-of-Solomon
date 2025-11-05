@@ -1,0 +1,10 @@
+@layer base {
+  html {
+    @apply font-sans;
+    @apply leading-normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@import "tailwindcss";
