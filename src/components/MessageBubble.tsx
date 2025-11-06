@@ -102,7 +102,7 @@ const MessageBubble: React.FC<MessageBubbleProps> = ({
         )}
 
         {/* Bubble */}
-        <div className={`px-4 py-2 text-xs ${bubbleStyles} ${roundingStyles}`}>
+        <div className={`px-4 py-2 ${bubbleStyles} ${roundingStyles}`}>
           <p>{text}</p>
         </div>
       </div>
@@ -110,7 +110,7 @@ const MessageBubble: React.FC<MessageBubbleProps> = ({
       {/* 3. VERSE NUMBER (Subtle, outside bubble) */}
       <div className="flex h-full items-end pb-1">
         {isLastMessageInGroup && (
-          <span className="text-2xs text-gray-400 font-mono mx-1">
+          <span className="text-xs text-gray-400 font-mono mx-1">
             {verseNum}
           </span>
         )}
