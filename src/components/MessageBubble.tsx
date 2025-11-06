@@ -67,8 +67,17 @@ const MessageBubble: React.FC<MessageBubbleProps> = ({
     isLastMessageInGroup,
   });
 
-  // --- Avatar ---
-  const avatar = (
+  // --- Avatar (MODIFIED) ---
+  // Conditionally render image or fallback initials
+  const avatar = config.avatarImg ? (
+    // 1. Image Avatar
+    <img
+      src={config.avatarImg}
+      alt={speaker}
+      className="h-8 w-8 rounded-full shrink-0 object-cover"
+    />
+  ) : (
+    // 2. Fallback Initials Avatar
     <div
       className={`flex h-8 w-8 items-center justify-center rounded-full font-bold shrink-0 ${config.avatarColor}`}
     >

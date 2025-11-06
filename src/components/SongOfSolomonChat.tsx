@@ -3,6 +3,14 @@ import MessageBubble from "./MessageBubble";
 import ChapterSelector from "./ChapterSelector";
 import bookData from "../songOfSolomon.json";
 
+// --- Import the images ---
+import PastolImg from "../assets/Pastol.png";
+import DalagaImg from "../assets/Dalaga.png";
+import HariImg from "../assets/Hari.png";
+import JerusalemImg from "../assets/Mga anak na babae ng Jerusalem.png";
+import SionImg from "../assets/Mga anak na babae ng Sion.png";
+import KapatidImg from "../assets/Mga kapatid na lalaki ng dalaga.png";
+
 // Define the structure of a verse
 interface Verse {
   verseNum: string;
@@ -16,54 +24,63 @@ type BookData = Record<string, Verse[]>;
 // 1. DEFINE SPEAKER CONFIGURATION
 export interface SpeakerConfig {
   initials: string;
-  avatarColor: string; // Tailwind classes for the avatar
+  avatarColor: string; // Tailwind classes for the avatar (used as fallback)
   bubbleColor: string; // Tailwind classes for the message bubble
   align: "left" | "right";
+  avatarImg?: string; // Optional property for the image path
 }
 
 // *** FIX: "Pastol" is now the "me" user (right-aligned, blue) ***
+// *** ADDED: avatarImg property to each speaker ***
 const speakerConfig: Record<string, SpeakerConfig> = {
   Pastol: {
     initials: "P",
     avatarColor: "bg-green-100 text-green-700",
     bubbleColor: "bg-blue-500 text-white", // Main speaker
     align: "right",
+    avatarImg: PastolImg,
   },
   Dalaga: {
     initials: "D",
     avatarColor: "bg-pink-100 text-pink-700",
     bubbleColor: "bg-gray-200 text-black", // Other speaker
     align: "left",
+    avatarImg: DalagaImg,
   },
   Hari: {
     initials: "H",
     avatarColor: "bg-purple-100 text-purple-700",
     bubbleColor: "bg-gray-200 text-black",
     align: "left",
+    avatarImg: HariImg,
   },
   "Mga anak na babae ng Jerusalem": {
     initials: "A",
     avatarColor: "bg-orange-100 text-orange-700",
     bubbleColor: "bg-gray-200 text-black",
     align: "left",
+    avatarImg: JerusalemImg,
   },
   "Mga anak na babae ng Sion": {
     initials: "S",
     avatarColor: "bg-yellow-100 text-yellow-700",
     bubbleColor: "bg-gray-200 text-black",
     align: "left",
+    avatarImg: SionImg,
   },
   "Mga kapatid na lalaki ng dalaga": {
     initials: "K",
     avatarColor: "bg-indigo-100 text-indigo-700",
     bubbleColor: "bg-gray-200 text-black",
     align: "left",
+    avatarImg: KapatidImg,
   },
   Pambungad: {
     initials: "N",
     avatarColor: "bg-gray-100 text-gray-500",
     bubbleColor: "bg-gray-100 text-gray-700",
     align: "left",
+    // No avatarImg, will use fallback
   },
   // Default for any speaker we missed
   default: {
@@ -71,6 +88,7 @@ const speakerConfig: Record<string, SpeakerConfig> = {
     avatarColor: "bg-gray-100 text-gray-500",
     bubbleColor: "bg-gray-200 text-black",
     align: "left",
+    // No avatarImg, will use fallback
   },
 };
 
